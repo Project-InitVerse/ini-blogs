@@ -1,0 +1,15 @@
+{
+  "name": "ini-blogs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:Project-UbiCloud/ini-blogs.git",
+  "author": "xiadd <xiadd0102@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "node scripts/build.mjs"
+  },
+  "dependencies": {
+    "globby": "^14.0.0",
+    "gray-matter": "^4.0.3"
+  }
+}
