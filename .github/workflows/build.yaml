@@ -32,3 +32,15 @@ jobs:
         with:
           tag_name: "release"
           files: release.json
+
+      - name: Trigger Dispatched Workflow
+        uses: actions/github-script@v7
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          script: |
+            github.repos.createDispatchEvent({
+              owner: 'Project-UbiCloud',
+              repo: 'ini-frontend',
+              event_type: 'blog_published',
+              client_payload: { ref: 'v2' },
+            })
