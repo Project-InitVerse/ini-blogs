@@ -25,9 +25,9 @@ jobs:
         run: yarn build
 
       - name: Test
-        run: cat release.txt
+        run: cat release.json
 
       - name: Release
         uses: softprops/action-gh-release@v1
         with:
-          files: Release.txt
+          files: release.json
