@@ -38,7 +38,7 @@ jobs:
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           script: |
-            github.repos.createDispatchEvent({
+            github.rest.repos.createDispatchEvent({
               owner: 'Project-UbiCloud',
               repo: 'ini-frontend',
               event_type: 'blog_published',
