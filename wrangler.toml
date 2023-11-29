@@ -7,5 +7,5 @@ workers_dev = false
 route = { pattern = "inichain.com/api/blogs/*", zone_name = "inichain.com" }
 
 kv_namespaces = [
-  { binding = "INI_BLOGS", id = "b569de5dd8834fb495bdf4887d06422c", preview_id = "9215352bc7064893bc0f6338e1bc9e0d" }
+  { binding = "INI_BLOGS", id = "b569de5dd8834fb495bdf4887d06422c" }
 ]
