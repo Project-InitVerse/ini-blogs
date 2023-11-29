@@ -1,0 +1,10 @@
+name = "ini-blogs-api"
+main = "scripts/worker.mjs"
+compatibility_date = "2023-11-28"
+
+workers_dev = false
+route = { pattern = "inichain.com/api/blogs/*", zone_name = "inichain.com" }
+
+kv_namespaces = [
+  { binding = "INI_BLOGS", id = "b569de5dd8834fb495bdf4887d06422c" }
+]

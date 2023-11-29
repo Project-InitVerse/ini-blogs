@@ -24,8 +24,12 @@ jobs:
       - name: Run build
         run: yarn build
 
-      - name: Test
-        run: cat release.json
+      - name: Read release.json
+        id: release
+        run: |
+          cat release.json
+          content=$(jq -r tostring release.json)
+          echo "content=$content" >> "$GITHUB_OUTPUT"
 
       - name: Release
         uses: softprops/action-gh-release@v1
@@ -33,14 +37,8 @@ jobs:
           tag_name: "release"
           files: release.json
 
-      - name: Trigger Dispatched Workflow
-        uses: actions/github-script@v7
+      - name: Deploy
+        uses: cloudflare/wrangler-action@v3
         with:
-          github-token: ${{ secrets.GITHUB_TOKEN }}
-          script: |
-            github.rest.repos.createDispatchEvent({
-              owner: 'Project-UbiCloud',
-              repo: 'ini-frontend',
-              event_type: 'blog_published',
-              client_payload: { ref: 'v2' },
-            })
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          preCommands: wrangler kv:key put --binding=INI_BLOGS blogs ${{ steps.release.outputs.content}}
