@@ -30,7 +30,10 @@ jobs:
           cat release.json
           content=$(jq -r tostring release.json)
           echo "content=$content" >> "$GITHUB_OUTPUT"
-          echo $GITHUB_OUTPUT
+
+      - name: Read Output
+        run: |
+          echo ${{ steps.release.outputs.content}}
 
       - name: Release
         uses: softprops/action-gh-release@v1
