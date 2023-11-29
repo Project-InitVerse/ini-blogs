@@ -28,7 +28,7 @@ jobs:
         id: release
         run: |
           cat release.json
-          content=$(node -e "console.log(fs.readFileSync('release.json', 'utf-8'))")
+          content=$(jq -r 'tojson' release.json)
           echo "content=$content" >> "$GITHUB_OUTPUT"
 
       - name: Read Output
