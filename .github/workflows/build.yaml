@@ -28,7 +28,7 @@ jobs:
         id: release
         run: |
           cat release.json
-          content=$(jq -r tostring release.json)
+          content=$(node -e "console.log(fs.readFileSync('release.json', 'utf-8'))")
           echo "content=$content" >> "$GITHUB_OUTPUT"
 
       - name: Read Output
@@ -45,4 +45,4 @@ jobs:
         uses: cloudflare/wrangler-action@v3
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
-          preCommands: wrangler kv:key put --binding=INI_BLOGS blogs "${{ steps.release.outputs.content}}"
+          preCommands: wrangler kv:key put --binding=INI_BLOGS blogs ${{ steps.release.outputs.content}}
