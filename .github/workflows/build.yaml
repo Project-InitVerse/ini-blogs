@@ -31,10 +31,6 @@ jobs:
           content=$(jq -r 'tojson' release.json | sed 's/"/\\"/g')
           echo "content=$content" >> "$GITHUB_OUTPUT"
 
-      - name: Read Output
-        run: |
-          echo "${{ steps.release.outputs.content}}"
-
       - name: Release
         uses: softprops/action-gh-release@v1
         with:
