@@ -11,7 +11,7 @@ app.get("/api/blogs/", async (c) => {
   try {
     data = JSON.parse(blogs);
   } catch (e) {}
-  return c.json({ data });
+  return c.json(data);
 });
 
 export default app;
