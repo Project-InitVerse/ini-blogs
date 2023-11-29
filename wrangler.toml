@@ -1,6 +1,7 @@
 name = "ini-blogs-api"
 main = "scripts/worker.mjs"
 compatibility_date = "2023-11-28"
+account_id = "8e2a1b540c70742df690323fb89c4774"
 
 workers_dev = false
 route = { pattern = "inichain.com/api/blogs/*", zone_name = "inichain.com" }
