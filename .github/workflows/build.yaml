@@ -28,7 +28,7 @@ jobs:
         id: release
         run: |
           cat release.json
-          content=$(jq -r tostring release.json)
+          content=$(cat release.json)
           echo "content=$content" >> "$GITHUB_OUTPUT"
 
       - name: Release
