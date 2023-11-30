@@ -13,7 +13,7 @@ const mdFiles = await globby("blogs", {
 for (const mdFile of mdFiles) {
   const mdContent = fs.readFileSync(mdFile, "utf-8");
   const data = matter(mdContent);
-
+  data.path = mdFile.replace("blogs/", "").replace(".md", "");
   blogs.push(data);
 }
 
