@@ -28,7 +28,7 @@ jobs:
         id: release
         run: |
           cat release.json
-          content=$(jq -r 'tojson' release.json | sed 's/"/\\"/g' | sed 's/`/\\`/g')
+          content=$(jq -r 'tojson' release.json | sed 's/"/\\"/g' | sed 's/`/\\`/g' | sed 's/\\n/\\\\n/g')
           echo "content=$content" >> "$GITHUB_OUTPUT"
 
       - name: Release

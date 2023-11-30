@@ -8,9 +8,11 @@ app.use("/api/*", cors());
 app.get("/api/blogs/", async (c) => {
   const blogs = await c.env.INI_BLOGS.get("blogs");
   let data = [];
-  try {
-    data = JSON.parse(blogs);
-  } catch (e) {}
+  if (blogs) {
+    try {
+      data = JSON.parse(blogs);
+    } catch (e) {}
+  }
   return c.json(data);
 });
 
