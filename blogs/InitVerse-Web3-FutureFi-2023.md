@@ -1,5 +1,5 @@
 ---
-title: InitVerse-Web3 FutureFi 2023 Summit: Exploring the Future of Fintech
+title: InitVerse-Web3 FutureFi 2023 Summit  Exploring the Future of Fintech
 desc: From December 18th to 19th, 2023, Hong Kong will host the highly anticipated Web3 FutureFi 2023 Summit.
 cover: https://github.com/Project-InitVerse/ini-blogs/blob/main/blogs/resources/images/07fac2464e1d4ff6998ba216705dabe9.png
 createdAt: 2023-12-15
