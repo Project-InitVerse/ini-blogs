@@ -5,6 +5,7 @@ cover: https://www.youtube.com/watch?v=FcYChN9Dep0
 createdAt: 2023-12-15
 ---
 
+
 # InitVerse revealed: Revolutionize your Web3 experience with our public beta!
 
 [![InitVerse revealed: Revolutionize your Web3 experience with our public beta!](https://res.cloudinary.com/marcomontalbano/image/upload/v1702639796/video_to_markdown/images/youtube--FcYChN9Dep0-c05b58ac6eb4c4700831b2b3070cd403.jpg)](https://www.youtube.com/watch?v=FcYChN9Dep0 "InitVerse revealed: Revolutionize your Web3 experience with our public beta!")
