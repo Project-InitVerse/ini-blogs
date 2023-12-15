@@ -8,7 +8,7 @@ createdAt: 2023-12-15
 # InitVerse-Web3 FutureFi 2023 Summit: Exploring the Future of Fintech
 
 From December 18th to 19th, 2023, Hong Kong will host the highly anticipated Web3 FutureFi 2023 Summit. This gathering of global industry experts and innovators will provide an in-depth discussion of the future directions and trends of financial technology in the field of blockchain and Web3.
-![image](https://github.com/Project-InitVerse/ini-blogs/blob/main/blogs/resources/images/07fac2464e1d4ff6998ba216705dabe9.png)
+![image](https://raw.githubusercontent.com/Project-InitVerse/ini-blogs/main/blogs/resources/images/07fac2464e1d4ff6998ba216705dabe9.png)
 InitVerse is one of the main participants of this summit. InitVerse is committed to building an open, secure and efficient blockchain infrastructure and revolutionizing cloud computing by providing a platform for free deployment using Ini tokens in a fair and transparent market.
 
 Decentralization:
