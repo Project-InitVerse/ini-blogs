@@ -1,7 +1,7 @@
 ---
 title: InitVerse revealed Revolutionize your Web3 experience with our public beta!
 desc: Welcome to the future of blockchain innovation with InitVerse
-cover: https://www.youtube.com/watch?v=FcYChN9Dep0
+cover: https://raw.githubusercontent.com/Project-InitVerse/ini-blogs/main/blogs/resources/images/07fac2464e1d4ff6998ba216705dabe9.png
 createdAt: 2023-12-15
 ---
 
