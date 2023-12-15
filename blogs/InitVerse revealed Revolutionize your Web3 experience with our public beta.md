@@ -8,7 +8,8 @@ createdAt: 2023-12-15
 
 # InitVerse revealed: Revolutionize your Web3 experience with our public beta!
 
-[![InitVerse revealed: Revolutionize your Web3 experience with our public beta!](https://res.cloudinary.com/marcomontalbano/image/upload/v1702639796/video_to_markdown/images/youtube--FcYChN9Dep0-c05b58ac6eb4c4700831b2b3070cd403.jpg)](https://www.youtube.com/watch?v=FcYChN9Dep0 "InitVerse revealed: Revolutionize your Web3 experience with our public beta!")
+@[youtube](https://www.youtube.com/watch?v=FcYChN9Dep0)
+
 “Welcome to the future of blockchain innovation with InitVerse! 🚀 Take a deep dive into our exciting new open beta and learn how we’re changing the Web3 landscape. In this video, we showcase InitVerse’s unparalleled benefits, including our cutting-edge Centralized ecosystem, best-in-class security features and unparalleled technical efficiency.
 
 Experience seamless deployment of web applications through the InitVerse user-friendly platform powered by the Ethereum Virtual Machine (EVM). Whether you are a developer, hobbyist or entrepreneur, InitVerse offers tailor-made solutions to enhance your projects.
