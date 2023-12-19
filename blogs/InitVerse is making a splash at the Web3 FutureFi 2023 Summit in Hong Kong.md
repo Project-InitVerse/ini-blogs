@@ -26,7 +26,7 @@ InitVerse is harnessing the power of blockchain technology to redefine the digit
 - EVM compatibility: InitVerse supports Ethereum Virtual Machine (EVM) features, allowing developers to easily create and deploy smart contracts and decentralized applications.
 
 - Privacy and security: At InitVerse, data privacy and security are paramount. The platform employs cutting-edge encryption and privacy protocols to protect user information and transactions.
-![image](https://raw.githubusercontent.com/Project-InitVerse/ini-blogs/main/blogs/resources/images/20231219002.png)
+![image](https://raw.githubusercontent.com/Project-InitVerse/ini-blogs/main/blogs/resources/images/20231219003.png)
 
 As the world shifts towards a decentralized future, InitVerse is at the forefront of this shift, providing solutions that empower users and developers alike. Attendees of the summit had an exclusive look at how InitVerse is reshaping the future of cloud computing, technology, and digital interactions.
 
