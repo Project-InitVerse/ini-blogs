@@ -1,6 +1,5 @@
 ---
 title: InitVerse is making a splash at the Web3 FutureFi 2023 Summit in Hong Kong
-desc: Web3 FutureFi 2023 Summit is the year-end event of the Big Demo Day event, which will be held on December 18 and 19, 2023 at Hong Kong Cyberport, supported by Cyberport, hosted by Central Research, Techub News, Hong Kong 01, and co-organized by IOST, Cointime, L7, and DA AGE. The year-end gala features a social party City Walk, a roadshow for quality projects, a job fair and an end-of-year awards ceremony.
 cover: https://raw.githubusercontent.com/Project-InitVerse/ini-blogs/main/blogs/resources/images/20231219001.png
 createdAt: 2023-12-19
 ---
