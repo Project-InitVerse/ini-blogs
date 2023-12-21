@@ -24,7 +24,7 @@ To thank you for your participation, we are offering token rewards to users who 
 
 Participation is easy:
 
-1.Visit our official website: https://inichain.com/, and start deploying tests. During the deployment testing process, you can first refer to InitVerse Docs: https://inichain.gitbook.io/initverse-network/~/changes/Z2zE31UmaUv16XK2ayqi/
+1.Visit our official website: https://testnet.inichain.com, and start deploying tests. During the deployment testing process, you can first refer to InitVerse Docs: https://inichain.gitbook.io/initverse-network
 2.Follow the guide in the InitVerse Docs to create your test account.
 3.Begin exploring the various features and functionalities of InitVerse.
 
