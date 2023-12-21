@@ -28,7 +28,7 @@ Once your application has been approved, we will provide you with detailed deplo
 By deploying this software, you will be able to better leverage the opportunities offered by the InitVerse platform to provide users with efficient computing resources. We believe that through your efforts and support, the InitVerse platform will be able to bring convenience and value to more users.
 If you have questions about any of the steps in the deployment process, or need further help and support, please feel free to contact us We look forward to working with you and helping you get started smoothly on the InitVerse platform.
 
-InitVerse (@InitVerse) / X (twitter.com)
+[InitVerse (@InitVerse) / X (twitter.com)](https://twitter.com/InitVerse)
 
 
 [www.youtube.com/@InitVerse](http://www.youtube.com/@InitVerse)
