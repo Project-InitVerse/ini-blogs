@@ -1,6 +1,6 @@
-如需发布博客，请直接在 `blogs` 目录下新增 md 文件，然后提交代码即可，修改同理。
+If you need to publish a blog, please directly add a new md (Markdown) file in the blogs directory, and then submit the code; the same applies for modifications.
 
-## 博客信息
+## Blog Information
 
 ```
 ---
@@ -11,9 +11,9 @@ createdAt: 2022-10-11
 ---
 ```
 
-在 md 文件中，需要在头部添加如上信息，其中：
+In the md (Markdown) file, you need to add the above information at the top, which includes:
 
-- title: 博客标题
-- desc: 博客描述
-- cover: 博客封面图
-- createdAt: 博客创建时间
+- title: Blog Title
+- desc: Blog Description
+- cover: Blog Cover Image
+- createdAt: Blog Creation Time
