@@ -1,5 +1,5 @@
 ---
-title: InitVerse: Testnet provider registration and deployment instructions
+title: InitVerse Testnet provider registration and deployment instructions
 cover: https://raw.githubusercontent.com/Project-InitVerse/ini-blogs/main/blogs/resources/images/20231221003.png
 desc:Dear InitVerse Testnet Providers, We are pleased to introduce you to the InitVerse Testnet Provider Service Deployment Instructions.
 createdAt: 2023-12-21
