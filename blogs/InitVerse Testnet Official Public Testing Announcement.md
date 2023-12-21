@@ -1,7 +1,7 @@
 ---
 title: InitVerse Testnet Official Public Testing Announcement
 cover: https://raw.githubusercontent.com/Project-InitVerse/ini-blogs/main/blogs/resources/images/20231221001.png
-desc:We are delighted to announce that the InitVerse testnet is now officially open for public testing!
+desc: We are delighted to announce that the InitVerse testnet is now officially open for public testing!
 createdAt: 2023-12-21
 ---
 # InitVerse Testnet Official Public Testing Announcement

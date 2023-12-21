@@ -1,7 +1,7 @@
 ---
 title: InitVerse Validator testnet validator registration and deployment instructions
 cover: https://raw.githubusercontent.com/Project-InitVerse/ini-blogs/main/blogs/resources/images/20231221002.png
-desc:Validator Testing Network is an important part of Initverse Network, which provides a platform for users to register and deploy validators.
+desc: Validator Testing Network is an important part of Initverse Network, which provides a platform for users to register and deploy validators.
 createdAt: 2023-12-21
 ---
 # InitVerse: Validator testnet validator registration and deployment instructions
