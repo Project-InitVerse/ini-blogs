@@ -1,7 +1,7 @@
 ---
 title: InitVerse Testnet Official Public Testing Announcement
 cover: https://raw.githubusercontent.com/Project-InitVerse/ini-blogs/main/blogs/resources/images/20231221003.png
-desc:
+desc:Dear InitVerse Testnet Providers, We are pleased to introduce you to the InitVerse Testnet Provider Service Deployment Instructions.
 createdAt: 2023-12-21
 ---
 # InitVerse: Testnet provider registration and deployment instructions
