@@ -21,7 +21,7 @@ When filling out the form, make sure to provide accurate information and follow 
 Once your application has been approved, we will provide you with detailed deployment instructions to ensure that you are able to install and configure the software correctly. We also provide technical support to resolve any issues you may have during the deployment process.
 
 
-Provider Service Deployment Instructions
+[Provider Service Deployment Instructions](https://inichain.gitbook.io/initverse-network/provider/provider-service-deployment-instructions)
 [inichain.gitbook.io](http://inichain.gitbook.io)
 
 By deploying this software, you will be able to better leverage the opportunities offered by the InitVerse platform to provide users with efficient computing resources. We believe that through your efforts and support, the InitVerse platform will be able to bring convenience and value to more users.
