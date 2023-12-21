@@ -22,6 +22,7 @@ Once your application has been approved, we will provide you with detailed deplo
 
 
 [Provider Service Deployment Instructions](https://inichain.gitbook.io/initverse-network/provider/provider-service-deployment-instructions)
+
 [inichain.gitbook.io](http://inichain.gitbook.io)
 
 By deploying this software, you will be able to better leverage the opportunities offered by the InitVerse platform to provide users with efficient computing resources. We believe that through your efforts and support, the InitVerse platform will be able to bring convenience and value to more users.
