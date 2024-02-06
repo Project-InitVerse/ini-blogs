@@ -1,7 +1,7 @@
 ---
 title: InitVerse and REI Network Opening up a new era of collaboration between blockchain and cloud computing
 desc: The tech world is witnessing the dawn of a groundbreaking partnership as cloud computing innovation pioneer InitVerse joins forces with next-generation public blockchain REI Network, which is redefining the landscape with its EVM compatibility and developer-friendly ecosystem.
-cover: https://raw.githubusercontent.com/Project-InitVerse/ini-blogs/main/blogs/resources/images/2024026001.png
+cover: https://raw.githubusercontent.com/Project-InitVerse/ini-blogs/main/blogs/resources/images/20240206001.png
 createdAt: 2024-02-06
 ---
 
