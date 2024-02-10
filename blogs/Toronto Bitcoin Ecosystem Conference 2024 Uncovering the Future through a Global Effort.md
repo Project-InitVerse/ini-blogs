@@ -31,6 +31,6 @@ InitVerse is at the forefront of decentralized cloud server technology. Focused 
 
 contact information:
 
-Email: [[support@inichain.com]](support@inichain.com)
+Email: [[support@inichain.com]](mailto:support@inichain.com)
 
 Media Relations: [https://linktr.ee/initverse]
