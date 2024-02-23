@@ -11,7 +11,9 @@ app.get("/api/blogs/", async (c) => {
   if (blogs) {
     try {
       data = JSON.parse(blogs);
-    } catch (e) {}
+    } catch (e) {
+      console.error(e);
+    }
   }
   return c.json(data);
 });
