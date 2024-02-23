@@ -12,6 +12,8 @@
     "execa": "^8.0.1",
     "globby": "^14.0.0",
     "gray-matter": "^4.0.3",
-    "hono": "^3.10.3"
+    "hono": "^3.10.3",
+    "markdown-it": "^14.0.0",
+    "markdown-it-video": "^0.6.3"
   }
 }
