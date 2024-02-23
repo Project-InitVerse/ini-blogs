@@ -9,6 +9,7 @@
     "build": "node scripts/build.mjs"
   },
   "dependencies": {
+    "base64-js": "^1.5.1",
     "execa": "^8.0.1",
     "globby": "^14.0.0",
     "gray-matter": "^4.0.3",

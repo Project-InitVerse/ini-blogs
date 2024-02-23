@@ -29,4 +29,7 @@ for (const mdFile of mdFiles) {
   blogs.push(data);
 }
 
-fs.writeFileSync("release.txt", btoa(JSON.stringify(blogs)));
+fs.writeFileSync(
+  "release.txt",
+  Buffer.from(JSON.stringify(blogs)).toString("base64")
+);
