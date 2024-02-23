@@ -10,7 +10,7 @@ app.get("/api/blogs/", async (c) => {
   let data = [];
   if (blogs) {
     try {
-      data = JSON.parse(blogs);
+      data = JSON.parse(Buffer.from(blogs, "base64").toString());
     } catch (e) {
       console.error(e);
     }
