@@ -29,4 +29,4 @@ for (const mdFile of mdFiles) {
   blogs.push(data);
 }
 
-fs.writeFileSync("release.json", JSON.stringify(blogs));
+fs.writeFileSync("release.txt", JSON.stringify(blogs));

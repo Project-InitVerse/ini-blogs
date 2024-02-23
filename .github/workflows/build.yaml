@@ -24,18 +24,18 @@ jobs:
       - name: Run build
         run: yarn build
 
-      - name: Read release.json
+      - name: Read release.txt
         id: release
         run: |
-          cat release.json
-          content=$(jq -r 'tostring' release.json)
+          cat release.txt
+          content=$(jq -r 'tostring' release.txt)
           echo "content=$content" >> "$GITHUB_OUTPUT"
 
       - name: Release
         uses: softprops/action-gh-release@v1
         with:
           tag_name: "release"
-          files: release.json
+          files: release.txt
 
       - name: Deploy
         uses: cloudflare/wrangler-action@v3
