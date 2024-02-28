@@ -1,7 +1,7 @@
 ---
 title: InitVerse Unleashing the Future of Decentralized Cloud Computing
 desc: In the emerging field of decentralized technology, the emergence of InitVerse marks a major leap in the evolution of cloud computing.
-cover: https://raw.githubusercontent.com/Project-InitVerse/ini-blogs/main/blogs/resources/images/20240227001.png
+cover: https://raw.githubusercontent.com/Project-InitVerse/ini-blogs/main/blogs/resources/images/20240228001.png
 createdAt: 2024-02-28
 ---
 # InitVerse Unleashing the Future of Decentralized Cloud Computing
