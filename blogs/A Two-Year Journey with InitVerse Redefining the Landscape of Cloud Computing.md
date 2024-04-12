@@ -1,5 +1,5 @@
 ---
-title: A Two-Year Journey with InitVerse Redefining the Landscape of Cloud Computing
+title: A Two Year Journey with InitVerse Redefining the Landscape of Cloud Computing
 desc: InitVerse is at the forefront of decentralized cloud computing, supported by an efficient low-gas blockchain ecosystem.
 cover: https://raw.githubusercontent.com/Project-InitVerse/ini-blogs/main/blogs/resources/images/20240412001.png
 createdAt: 2024-04-12
