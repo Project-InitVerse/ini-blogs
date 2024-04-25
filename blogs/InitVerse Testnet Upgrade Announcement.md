@@ -1,6 +1,6 @@
 ---
 title: InitVerse Testnet Upgrade Announcement
-desc: We are thrilled to announce a significant upgrade to the InitVerse Testnet, aimed at enhancing performance, security, and functionality. With upgrade ，we will introduce  innovative features and improvements to meet the growing demands of our users and further solidify our position as a leading decentralized cloud platform.
+desc: We are thrilled to announce a significant upgrade to the InitVerse Testnet, aimed at enhancing performance, security, and functionality. With upgrade ,we will introduce  innovative features and improvements to meet the growing demands of our users and further solidify our position as a leading decentralized cloud platform.
 cover: 
 createdAt: 2024-04-25
 ---
@@ -24,6 +24,8 @@ To ensure a smooth upgrade process, the InitVerse Testnet may be temporarily una
 We sincerely appreciate your support and trust in the InitVerse Testnet. This upgrade will further enhance our service quality and user experience, providing a more powerful, secure, and reliable decentralized cloud platform.
 
 If you have any questions or need further information, please do not hesitate to contact us. Our team is always here to help and support you.
+
 Thank you!
 Best Regards,
+
 InitVerse Testnet Team
