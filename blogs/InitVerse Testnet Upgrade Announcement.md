@@ -8,6 +8,7 @@ createdAt: 2024-04-25
 # InitVerse Testnet Upgrade Announcement
 
   Dear Users,
+  
 We are thrilled to announce a significant upgrade to the InitVerse Testnet, aimed at enhancing performance, security, and functionality. With upgrade ,we will introduce  innovative features and improvements to meet the growing demands of our users and further solidify our position as a leading decentralized cloud platform.
 
 Key Highlights and Improvements of This Upgrade:
@@ -26,6 +27,7 @@ We sincerely appreciate your support and trust in the InitVerse Testnet. This up
 If you have any questions or need further information, please do not hesitate to contact us. Our team is always here to help and support you.
 
 Thank you!
+
 Best Regards,
 
 InitVerse Testnet Team
