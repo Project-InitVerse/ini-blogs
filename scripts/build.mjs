@@ -30,17 +30,31 @@ for (const mdFile of mdFiles) {
   data.content = md.render(data.content);
   blogs.push(data);
 
-  console.log(`Publishing ${data.path}...`);
+  const options = {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/json",
+      Authorization: `Bearer ${process.env.CLOUDFLARE_API_TOKEN}`,
+    },
+    body: '{"params":["firstParam","secondParam"],"sql":"SELECT * FROM blogs"}',
+  };
 
-  await execa("wrangler", [
-    "d1",
-    "execute",
-    "DB",
-    "--command",
-    `INSERT INTO blogs (path, content, metadata) VALUES ("${
-      data.path
-    }", "${toBase64(data.content)}", "${toBase64(JSON.stringify(data.data))}")`,
-  ]);
+  await fetch(
+    "https://api.cloudflare.com/client/v4/accounts/8e2a1b540c70742df690323fb89c4774/d1/database/59e59aaa-910d-4b48-9d61-e8b254254bbd/query",
+    options
+  )
+    .then((response) => response.json())
+    .then((response) => console.log(response))
+    .catch((err) => console.error(err));
+  // await execa("wrangler", [
+  //   "d1",
+  //   "execute",
+  //   "DB",
+  //   "--command",
+  //   `INSERT INTO blogs (path, content, metadata) VALUES ("${
+  //     data.path
+  //   }", "${toBase64(data.content)}", "${toBase64(JSON.stringify(data.data))}")`,
+  // ]);
 }
 
 fs.writeFileSync(
