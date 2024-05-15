@@ -2,10 +2,16 @@ name = "ini-blogs-api"
 main = "scripts/worker.mjs"
 compatibility_date = "2023-11-28"
 account_id = "8e2a1b540c70742df690323fb89c4774"
+compatibility_flags = ["nodejs_compat"]
 
 workers_dev = false
 route = { pattern = "inichain.com/api/blogs/*", zone_name = "inichain.com" }
 
 kv_namespaces = [
-  { binding = "INI_BLOGS", id = "b569de5dd8834fb495bdf4887d06422c" }
+  { binding = "INI_BLOGS", id = "b569de5dd8834fb495bdf4887d06422c" },
 ]
+
+[[d1_databases]]
+binding = "DB"
+database_name = "iniverse"
+database_id = "59e59aaa-910d-4b48-9d61-e8b254254bbd"

@@ -24,20 +24,8 @@ jobs:
       - name: Run build
         run: yarn build
 
-      - name: Read release.txt
-        id: release
-        run: |
-          content=$(cat release.txt)
-          echo "content=$content" >> "$GITHUB_OUTPUT"
-
-      - name: Release
-        uses: softprops/action-gh-release@v1
-        with:
-          tag_name: "release"
-          files: release.txt
-
-      - name: Deploy
-        uses: cloudflare/wrangler-action@v3
-        with:
-          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
-          preCommands: ulimit -s 65536 && wrangler kv:key put --binding=INI_BLOGS blogs "${{ steps.release.outputs.content}}"
+      # - name: Deploy
+      #   uses: cloudflare/wrangler-action@v3
+      #   with:
+      #     apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+      #     preCommands: ulimit -s 65536 && wrangler kv:key put --binding=INI_BLOGS blogs "${{ steps.release.outputs.content}}"

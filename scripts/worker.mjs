@@ -1,21 +1,30 @@
 import { Hono } from "hono";
 import { cors } from "hono/cors";
+import { Buffer } from "node:buffer";
 
 const app = new Hono();
 
 app.use("/api/*", cors());
 
 app.get("/api/blogs/", async (c) => {
-  const blogs = await c.env.INI_BLOGS.get("blogs");
+  const { results } = await c.env.DB.prepare("select * from blogs").all();
   let data = "";
-  if (blogs) {
+  if (results) {
     try {
-      data = blogs;
+      data = results;
     } catch (e) {
       console.error(e);
     }
   }
-  return c.text(data);
+  return c.json(
+    data.map((blog) => ({
+      ...blog,
+      content: Buffer.from(blog.content, "base64").toString("utf-8"),
+      metadata: JSON.parse(
+        Buffer.from(blog.metadata, "base64").toString("utf-8")
+      ),
+    }))
+  );
 });
 
 export default app;
