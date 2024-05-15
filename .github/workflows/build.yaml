@@ -22,7 +22,7 @@ jobs:
         run: yarn install
 
       - name: Run build
-        run: yarn build && ulimit -S -s unlimited
+        run: yarn build
 
       - name: Read release.txt
         id: release
@@ -40,4 +40,4 @@ jobs:
         uses: cloudflare/wrangler-action@v3
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
-          preCommands: wrangler kv:key put --binding=INI_BLOGS blogs "${{ steps.release.outputs.content}}"
+          preCommands: ulimit -S -s unlimited && wrangler kv:key put --binding=INI_BLOGS blogs "${{ steps.release.outputs.content}}"
