@@ -40,7 +40,6 @@ for (const mdFile of mdFiles) {
     `INSERT INTO blogs (path, content, metadata) VALUES ("${
       data.path
     }", "${toBase64(data.content)}", "${toBase64(JSON.stringify(data.data))}")`,
-    "--remote",
   ]);
 }
 
