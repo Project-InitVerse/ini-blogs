@@ -21,11 +21,11 @@ jobs:
       - name: Install dependencies
         run: yarn install
 
-      - name: Run build
-        run: ulimit -S -s unlimited && node scripts/build.mjs
+      # - name: Run build
+      #   run: ulimit -S -s unlimited && node scripts/build.mjs
 
-      # - name: Deploy
-      #   uses: cloudflare/wrangler-action@v3
-      #   with:
-      #     apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
-      #     preCommands: ulimit -s 65536 && wrangler kv:key put --binding=INI_BLOGS blogs "${{ steps.release.outputs.content}}"
+      - name: Deploy
+        uses: cloudflare/wrangler-action@v3
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          preCommands: node scripts/build.mjs
