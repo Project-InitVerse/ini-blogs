@@ -22,7 +22,7 @@ jobs:
         run: yarn install
 
       - name: Run build
-        run: yarn build
+        run: yarn build && ulimit -S -s unlimited
 
       - name: Read release.txt
         id: release
