@@ -1,7 +1,6 @@
 import { Hono } from "hono";
 import { cors } from "hono/cors";
 import { Buffer } from "node:buffer";
-import path from "node:path";
 
 const app = new Hono();
 
