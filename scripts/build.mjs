@@ -29,14 +29,18 @@ for (const mdFile of mdFiles) {
   data.path = mdFile.replace("blogs/", "").replace(".md", "");
   data.content = md.render(data.content);
   blogs.push(data);
-  console.log(process.env.CLOUDFLARE_API_TOKEN, 111);
+  console.log(`Publishing ${data.path}...`);
   const options = {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
       Authorization: `Bearer ${process.env.CLOUDFLARE_API_TOKEN}`,
     },
-    body: '{"params":["firstParam","secondParam"],"sql":"SELECT * FROM blogs"}',
+    body: `{"params":[], "sql":"INSERT INTO blogs (path, content, metadata) VALUES('${
+      data.path
+    }', '${toBase64(data.content)}', '${toBase64(
+      JSON.stringify(data.data)
+    )}')"}`,
   };
 
   await fetch(
