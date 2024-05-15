@@ -1,6 +1,7 @@
 import { Hono } from "hono";
 import { cors } from "hono/cors";
 import { Buffer } from "node:buffer";
+import path from "node:path";
 
 const app = new Hono();
 
@@ -19,6 +20,7 @@ app.get("/api/blogs/", async (c) => {
   return c.json(
     data.map((blog) => ({
       ...blog,
+      path: Buffer.from(blog.path, "base64").toString("utf-8"),
       content: Buffer.from(blog.content, "base64").toString("utf-8"),
       metadata: JSON.parse(
         Buffer.from(blog.metadata, "base64").toString("utf-8")

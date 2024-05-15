@@ -49,9 +49,9 @@ for (const mdFile of mdFiles) {
       "Content-Type": "application/json",
       Authorization: `Bearer ${process.env.CLOUDFLARE_API_TOKEN}`,
     },
-    body: `{"params":[], "sql":"INSERT INTO blogs (path, content, metadata) VALUES('${
+    body: `{"params":[], "sql":"INSERT INTO blogs (path, content, metadata) VALUES('${toBase64(
       data.path
-    }', '${toBase64(data.content)}', '${toBase64(
+    )}', '${toBase64(data.content)}', '${toBase64(
       JSON.stringify(data.data)
     )}')"}`,
   };
