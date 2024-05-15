@@ -29,7 +29,7 @@ for (const mdFile of mdFiles) {
   data.path = mdFile.replace("blogs/", "").replace(".md", "");
   data.content = md.render(data.content);
   blogs.push(data);
-
+  console.log(process.env.CLOUDFLARE_API_TOKEN, 111);
   const options = {
     method: "POST",
     headers: {
