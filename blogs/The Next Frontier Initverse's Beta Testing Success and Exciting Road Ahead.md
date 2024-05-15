@@ -2,7 +2,7 @@
 title: The Next Frontier Initverse's Beta Testing Success and Exciting Road Ahead
 desc: As we move through the inaugural phase of Initverse beta testing, our community's enthusiasm and engagement continues to exceed expectations. 
 cover: https://raw.githubusercontent.com/Project-InitVerse/ini-blogs/main/blogs/resources/images/20240514001.png
-createdAt: 2024-04-12
+createdAt: 2024-05-14
 ---
 # The Next Frontier Initverse's Beta Testing Success and Exciting Road Ahead
  
