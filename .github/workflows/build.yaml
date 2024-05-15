@@ -40,4 +40,4 @@ jobs:
         uses: cloudflare/wrangler-action@v3
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
-          preCommands: ulimit -S -s unlimited && wrangler kv:key put --binding=INI_BLOGS blogs "${{ steps.release.outputs.content}}"
+          preCommands: ulimit -s 65536 && wrangler kv:key put --binding=INI_BLOGS blogs "${{ steps.release.outputs.content}}"
