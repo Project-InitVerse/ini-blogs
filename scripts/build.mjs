@@ -23,13 +23,26 @@ const mdFiles = await globby("blogs", {
   },
 });
 
+const deleteOptions = {
+  method: "POST",
+  headers: {
+    "Content-Type": "application/json",
+    Authorization: `Bearer ${process.env.CLOUDFLARE_API_TOKEN}`,
+  },
+  body: `{"params":[], "sql":"DELETE FROM blogs"}`,
+};
+
+await fetch(
+  "https://api.cloudflare.com/client/v4/accounts/8e2a1b540c70742df690323fb89c4774/d1/database/59e59aaa-910d-4b48-9d61-e8b254254bbd/query",
+  deleteOptions
+);
+
 for (const mdFile of mdFiles) {
   const mdContent = fs.readFileSync(mdFile, "utf-8");
   const data = matter(mdContent);
   data.path = mdFile.replace("blogs/", "").replace(".md", "");
   data.content = md.render(data.content);
   blogs.push(data);
-  console.log(`Publishing ${data.path}...`);
   const options = {
     method: "POST",
     headers: {
@@ -48,7 +61,9 @@ for (const mdFile of mdFiles) {
     options
   )
     .then((response) => response.json())
-    .then((response) => console.log(response))
+    .then((response) => {
+      console.log(`Published ${data.path}!`);
+    })
     .catch((err) => console.error(err));
   // await execa("wrangler", [
   //   "d1",
