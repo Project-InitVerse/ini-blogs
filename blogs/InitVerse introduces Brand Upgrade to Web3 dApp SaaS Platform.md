@@ -1,7 +1,7 @@
 ---
 title: InitVerse introduces Brand Upgrade to Web3 dApp SaaS Platform
 desc: June 25, 2024 (UTC+4) - InitVerse, a pioneer in the Web3 space, is excited to announce the completion of a comprehensive brand upgrade.
-cover: https://raw.githubusercontent.com/Project-InitVerse/ini-blogs/main/blogs/resources/images/20240528001.png
+cover: https://raw.githubusercontent.com/Project-InitVerse/ini-blogs/main/blogs/resources/images/20240628001.png
 createdAt: 2024-06-27
 ---
 # InitVerse introduces Brand Upgrade to Web3 dApp SaaS Platform
