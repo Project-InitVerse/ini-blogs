@@ -1,5 +1,5 @@
 ---
-title: Make an Impact with InitVerse: Join the InitVerse Ambassador Program!
+title: Make an Impact with InitVerse Join the InitVerse Ambassador Program
 desc:  InitVerse looking for enthusiastic ambassadors to help spread the word about InitVerse, an innovative Web3 SaaS platform that’s changing the game for enterprise DApp development and deployment.
 cover: https://raw.githubusercontent.com/Project-InitVerse/ini-blogs/main/blogs/resources/images/20240710001.png
 createdAt: 2024-07-10
